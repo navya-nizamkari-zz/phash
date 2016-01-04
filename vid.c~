@@ -1,0 +1,13 @@
+#include <iostream>
+#include<stdlib.h>
+#include<stdio.h>
+#include <pHash.h>
+using namespace std;
+
+int main()
+{
+   int length=10;int x=2;
+ ulong64 * a= (ulong64*)malloc(sizeof(ulong64)*length);
+    a=ph_dct_videohash("rec1.mp4",x);
+    printf("%d",a[1]);
+   }

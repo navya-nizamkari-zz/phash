@@ -1,0 +1,3 @@
+all:
+	g++ phash.c -lpHash
+		./a.out
